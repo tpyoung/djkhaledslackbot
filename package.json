@@ -20,8 +20,7 @@
   },
   "scripts": {
     "pretest": "jscs ./lib/",
-    "test": "mocha tests/*.js",
-    "start": "heroku run token=xoxb-27980530433-sZDIREJZm2Qd5Jeci8ANFsJK node bot.js"
+    "test": "mocha tests/*.js"
   },
   "repository": {
     "type": "git",
