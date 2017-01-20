@@ -2,7 +2,7 @@
 
 ---
 
-![DEEEEEEJJJJAAAAAAAYYYY KHHAAAALLLEEEDD](https://cloud.githubusercontent.com/assets/13547790/22169298/e5b82282-df27-11e6-9a73-261dc89a654a.png)
+![DEEEEEEJJJJAAAAAAAYYYY KHHAAAALLLEEEDD](https://cloud.githubusercontent.com/assets/13547790/22169336/3fb87944-df28-11e6-8f38-ac4772dac48e.jpg)
 
 
 ### Setup
