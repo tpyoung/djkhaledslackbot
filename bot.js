@@ -60,7 +60,6 @@ var majorKeys = [
   "Every chance I get, I water the plants, Lion!",
   "In life there will be road blocks but we will over come it.",
   "Wraith talk.",
-  "/giphy major key alert",
   "Eliptical talk.",
   "To succeed you must believe. When you believe, you will succeed.",
   "Life is what you make it, so let's make it.",
