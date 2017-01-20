@@ -8,6 +8,9 @@
   Run your bot from the command line:
 
     token=<MY TOKEN> node bot.js
+
+
+    token=xoxb-27980530433-sZDIREJZm2Qd5Jeci8ANFsJK node bot.js
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 if (!process.env.token) {
@@ -19,7 +22,7 @@ var Botkit = require('./lib/Botkit.js');
 var os = require('os');
 
 var controller = Botkit.slackbot({
-    debug: true,
+    debug: false,
 });
 
 var bot = controller.spawn({
@@ -28,7 +31,7 @@ var bot = controller.spawn({
 
 
 
-controller.hears(['inspire', 'inspired', 'inspiration', 'help me', 'need help' , 'needs help', 'success', 'another one.',  'key','keys','loyalty','loyal' ],['direct_message' , 'direct_mention' ,  'ambient' , 'mention'],function(bot,message){
+controller.hears(['inspire', 'inspired', 'bless up', 'inspiration', 'help me', 'need help' , 'needs help', 'success', 'another one.',  'key','keys','loyalty','loyal' ],['direct_message' , 'direct_mention' ,  'ambient' , 'mention'],function(bot,message){
 
 var keysRandom = function(){
 var majorKeys = [
@@ -57,6 +60,7 @@ var majorKeys = [
   "Every chance I get, I water the plants, Lion!",
   "In life there will be road blocks but we will over come it.",
   "Wraith talk.",
+  "/giphy major key alert",
   "Eliptical talk.",
   "To succeed you must believe. When you believe, you will succeed.",
   "Life is what you make it, so let's make it.",
